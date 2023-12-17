@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <!-- Our stylesheet -->
+    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="./tablet.css" />
+    <link rel="stylesheet" href="./desktop.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="page-navigation">
+          <a class="logotype" href="./index.html"
+            >MiLa <span class="header-span">LI</span></a
+          >
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link menu-link-link" href="./about.html"
+                >ABOUT ME</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="">PROJECTS</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./services.html">SERVICES</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-cv">
+          <a class="header-cv-link" href="DOWNLOAD CV">DOWNLOAD CV</a>
+        </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="menu-open-icon" width="36" height="24">
+            <use href="./images/icons.svg#icon-Nav"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg width="36" height="36">
+              <use href="./images/icons.svg#icon-x-icon"></use>
+            </svg>
+          </button>
+          <ul class="mob-nav-list">
+            <li><a href="./index.html" class="mob-nav-link current">CV</a></li>
+            <li><a href="./about.html" class="mob-nav-link">ABOUT ME</a></li>
+            <li><a href="" class="mob-nav-link">PROJECTS</a></li>
+            <li>
+              <a href="./services.html" class="mob-nav-link">SERVICES </a>
+            </li>
+            <li><a href="./contact.html" class="mob-nav-link">CONTACT</a></li>
+          </ul>
+          <ul class="mob-soc-list">
+            <li>
+              <a href=""
+                ><img
+                  src="./images/social_media_icon_collection_5_1 1.svg"
+                  alt=""
+                  width="40"
+                  height="40"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./images/social_media_icon_collection_5_you 1.svg"
+                  alt=""
+                  width="40"
+                  height="40"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./images/social_media_icon_collection_lin 1.svg"
+                  alt=""
+                  width="40"
+                  height="40"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="case">
+        <div class="container">
+          <h2 class="case-title">Cases</h2>
+          <ul class="case-list">
+            <li>
+              <div class="case-container">
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./images/img-1-desc-1x.png 1x,
+                      ./images/img-1-desc-2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img-1-mob1x.png 1x,
+                      ./images/img-1-mob2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/img-1-desc-1x.png"
+                    alt="Ноутбук"
+                    width="613"
+                    loading="lazy"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./images/img-2-desc-1x.png 1x,
+                      ./images/img-2-desc-2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img-2-mob1x.png 1x,
+                      ./images/img-2-mob2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/img-2-desc-1x.png"
+                    alt="Ноутбук"
+                    width="527"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <h3 class="case-subtitle">Destin</h3>
+              <p class="case-description">Gør det selv-reparationsservice</p>
+              <p class="case-text">
+                The website “Reparer din vaskemaskine” is a group project about
+                a service guide for washing machine repairs. Each team member
+                has assigned responsibilities. In my role, I focused on
+                researching needs and interviewing people. In addition to this,
+                I played a role in the design process, creating sketches ,
+                mockups and wrote code for website pages.
+              </p>
+              <ul class="case-text-list">
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">About</h3>
+                  <p class="case-text-desc">
+                    The website “Reparer din vaskemaskine” is a group project
+                    about a service guide for washing machine repairs. Each team
+                    member has assigned responsibilities. In my role, I focused
+                    on researching needs and interviewing people. In addition to
+                    this, I played a role in the design process, creating
+                    sketches , mockups and wrote code for website pages.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Task</h3>
+                  <p class="case-text-desc">
+                    The website should be user-friendly and provide a cost-free
+                    service guide. Users should have the ability to get help
+                    anytime, anywhere with ease.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Problem solving</h3>
+                  <p class="case-text-desc">
+                    Free website, guides through chatbot and videos. Users can
+                    save time and extend the life of the machine without buying
+                    a new one. Which is a positive aspect of reducing the
+                    production of washing machines and, accordingly, the
+                    negative impact on the environment.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Tools</h3>
+                  <p class="case-text-desc">
+                    Trello, Figma, Photoshop, VSCode, and Git/GitHub, HTML,/CSS
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="case-container">
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./images/img-3-desc-1x.png 1x,
+                      ./images/img-3-desc-2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img-3-mob1x.png 1x,
+                      ./images/img-3-mob2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/img-3-desc-1x.png"
+                    alt="Ноутбук"
+                    width="613"
+                    loading="lazy"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./images/img-4-desc-1x.png 1x,
+                      ./images/img-4-desc-2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img-4-mob1x.png 1x,
+                      ./images/img-4-mob2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/img-4-desc-1x.png"
+                    alt="Ноутбук"
+                    width="527"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <h3 class="case-subtitle">Vyshyvanka Vibes</h3>
+              <p class="case-description">
+                The store "Vyshyvanka Vibes" is a place where traditional
+                Ukrainian vyshyvanka comes to life with new zest and style.
+              </p>
+              <p class="case-text">
+                The store "Vyshyvanka Vibes" is a place where traditional
+                Ukrainian vyshyvanka comes to life with new zest and style. The
+                store offers a wide selection of high-quality and authentic
+                embroidery, which combines the elegance of traditional
+                needlework and modern design.
+              </p>
+              <ul class="case-text-list">
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">About</h3>
+                  <p class="case-text-desc">
+                    The store "Vyshyvanka Vibes" is a place where traditional
+                    Ukrainian vyshyvanka comes to life with new zest and style.
+                    The store offers a wide selection of high-quality and
+                    authentic embroidery, which combines the elegance of
+                    traditional needlework and modern design.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Task</h3>
+                  <p class="case-text-desc">
+                    The store "Vyshyvanka Vibes" should be modern and help users
+                    learn more about the history and uniqueness of embroidered
+                    shirts. Users can conveniently browse and order shirts
+                    anytime, anywhere.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Problem solving</h3>
+                  <p class="case-text-desc">
+                    The site "Vyshyvanka Vibes" helps users learn more about the
+                    history and uniqueness of embroidered shirts. The store is
+                    stylish and modern, filled with quality photos. <br />
+                    <br />
+                    Users can conveniently browse and order shirts anytime,
+                    anywhere. The site allows placing orders directly or
+                    contacting the store.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Tools</h3>
+                  <p class="case-text-desc">
+                    Figma, VSCode, and Git/GitHub, HTML,/CSS
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="case-container">
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./images/img-5-desc-1x.png 1x,
+                      ./images/img-5-desc-2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img-5-mob1x.png 1x,
+                      ./images/img-5-mob2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/img-5-desc-1x.png"
+                    alt="Ноутбук"
+                    width="613"
+                    loading="lazy"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./images/img-6-desc-1x.png 1x,
+                      ./images/img-6-desc-2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img-6-mob1x.png 1x,
+                      ./images/img-6-mob2x.png 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/img-6-desc-1x.png"
+                    alt="Ноутбук"
+                    width="527"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <h3 class="case-subtitle">WEBSTUDIO</h3>
+              <p class="case-description">
+                Effective Solutions for Your Businness
+              </p>
+              <p class="case-text">
+                The WebStudio site offers clients solutions for business tasks.
+                The solution includes marketing, design and development.
+              </p>
+              <ul class="case-text-list">
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">About</h3>
+                  <p class="case-text-desc">
+                    The WebStudio site offers clients solutions for business
+                    tasks. The solution includes marketing, design and
+                    development.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Task</h3>
+                  <p class="case-text-desc">
+                    The site should be modern and easy to use. All information
+                    that users need should be provided. There should be clear
+                    examples of completed projects.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Problem solving</h3>
+                  <p class="case-text-desc">
+                    The site "Effective Solutions for Your Business'" offers
+                    friendly solutions for businesses by providing a one-stop
+                    platform that includes product design, development,
+                    marketing, and high-level design services <br />
+                    <br />
+                    This helps businesses streamline their processes, improve
+                    collaboration among teams, and optimize their overall
+                    workflow.
+                  </p>
+                </li>
+                <li class="case-text-item">
+                  <h3 class="case-text-subtitle">Tools</h3>
+                  <p class="case-text-desc">
+                    Figma, VSCode, and Git/GitHub, HTML,/CSS
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <address class="address">
+        <ul class="adress-list">
+          <li>
+            <a href=""
+              ><img
+                src="./images/social_media_icon_collection_5_1 1.svg"
+                alt=""
+                width="40"
+                height="40"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./images/social_media_icon_collection_5_you 1.svg"
+                alt=""
+                width="40"
+                height="40"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./images/social_media_icon_collection_lin 1.svg"
+                alt=""
+                width="40"
+                height="40"
+            /></a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+    <script src="./js/mobilemenu.js"></script>
+  </body>
+</html>

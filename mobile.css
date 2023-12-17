@@ -1,0 +1,276 @@
+/* ============== COMMON STYLES ============== */
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+ h1,h2,h3,h4, p {margin: 0;}
+
+ img {
+  display: block;
+  height: auto;
+  width: 100%;
+
+ }
+
+ address {
+  font-style: normal;
+ }
+
+ body {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #1C2225;
+ }
+
+ .container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+ }
+
+
+/* ============== COMMON STYLES ============== */
+
+.page-header {
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.page-navigation {
+}
+
+.logotype {
+  color: #ECD979;
+text-align: center;
+
+font-family: Sedan SC;
+font-size: 24px;
+line-height: 1; /* 100% */
+letter-spacing: 0.05em;
+padding-top: 34px;
+padding-bottom: 10px;
+display: block;
+}
+.header-span {
+  color: #FAFAFA;
+}
+.menu-list {
+  display: none;
+}
+
+.header-cv {
+  display: none;
+}
+.header-cv-link {
+}
+
+.menu-open-btn {
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  width: 56px;
+  height: 44px;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #1C2225;
+  background-image: url("../images/bg_img.png");
+  background-repeat: no-repeat;
+ background-position-x: 38px;
+ background-position-y: 440px;
+ opacity: 0;
+ visibility: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu-close-btn {
+padding: 0;
+line-height: 0;
+background-color: transparent;
+border: none;
+display: block;
+margin-left: auto;
+margin-bottom: 95px;
+}
+
+.mobile-menu-container {
+padding: 36px 20px 30px 20px;
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+
+.mob-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: auto;
+}
+.mob-nav-link {
+  color: #FBFBFB;
+font-size: 16px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.05em;
+}
+.mob-soc-list {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  position: relative;
+}
+.mob-soc-list::before{
+  content: "";
+  position: absolute;
+}
+.current {
+  border: 1px solid #ECD979;
+  padding: 4px 16px;
+  display: inline-block;
+}
+
+.hero {
+ 
+ 
+}
+
+.hero-container {
+ background-image: url("../images/bg_img.png");
+  background-position-y: 286px;
+  background-position-x: 41px;
+  background-repeat: no-repeat;
+   padding-top: 106px;
+  padding-bottom: 435px;
+}
+.hero-title {
+color: #FBFBFB;
+text-align: center;
+font-family: Sylfaen;
+font-size: 32px;
+letter-spacing: 0.05em;
+font-weight: 400;
+}
+
+.hero-text {
+color: #FBFBFB;
+font-family: Sylfaen;
+font-size: 24px;
+letter-spacing: 0.05em;
+font-weight: 500;
+text-align: center;
+}
+
+.footer {
+  border-top: 1px solid #33383A;
+  padding: 30px 0;
+
+
+}
+.address {
+}
+.adress-list {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+
+
+.about-container {
+
+ padding-top: 64px;
+  padding-bottom: 155px;
+}
+
+.about-title {
+  color:  #ECD979;
+text-align: center;
+
+
+font-size: 24px;
+
+font-weight: 400;
+line-height: 1; /* 100% */
+letter-spacing: 0.05em;
+margin-bottom: 48px;
+}
+
+.about-text {
+  color: #FFF;
+font-family: Sylfaen;
+
+font-size: 16px;
+
+
+line-height: normal;
+letter-spacing: 0.05em;
+}
+
+.case {
+  padding: 74px 0;
+}
+
+.case-title {
+  color: #FBFBFB;
+
+font-size: 24px;
+
+font-weight: 500;
+line-height: 1; /* 100% */
+letter-spacing: 0.05em;
+margin-bottom: 40px;
+}
+.case-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.case-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.case-subtitle {
+  color: rgba(252, 249, 249, 0.40);
+
+font-size: 16px;
+
+font-weight: 400;
+letter-spacing: -0.04em;
+margin-bottom: 6px;
+}
+.case-text {
+  color: #FFF;
+font-size: 16px;
+line-height: normal;
+letter-spacing: -0.04em;
+}
+.case-description {
+  display: none;
+}
+.case-text-list {
+  display: none;
+}
