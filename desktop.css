@@ -173,7 +173,66 @@ font-size: 20px;
 line-height: normal;
 letter-spacing: -0.04em;
 }
+
+.contact {
+    padding-top: 75px;
+    padding-bottom: 104px;
 }
+
+.contact-title {
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 94px;
+
+}
+
+.form-wrap {
+    display: flex;
+    gap: 131px;
+}
+.contact-list{
+    display: none;
+}
+.order-form-input {
+    font-size: 16px;
+    height: 50px;
+  }
+  .order-form-text-comment {
+    font-size: 16px;
+  }
+
+.contact-text {
+font-size: 32px;
+font-weight: 500;
+line-height: 1.8; /* 181.25% */
+letter-spacing: -0.03em;
+margin-bottom: 20px;
+}
+  
+.form-text-wrap {
+    max-width: 490px;
+}
+
+.order-form-container {
+    width: 508px;
+    margin-bottom: 0;
+}
+.contact-list-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-title {
+color: #FCF9F9;
+font-size: 16px;
+font-weight: 500;
+line-height: 3.6; /* 362.5% */
+letter-spacing: -0.03em;
+display: block;
+}
+
+}
+
 
 
 
