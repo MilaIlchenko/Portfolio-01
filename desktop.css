@@ -230,7 +230,28 @@ line-height: 3.6; /* 362.5% */
 letter-spacing: -0.03em;
 display: block;
 }
+.service-container{
+    padding-top: 130px;
+    padding-bottom: 225px;
+    background-image: url(../images/lampe.svg);
+    background-position-y: 605px;
+    background-position-x: 167px;
+    background-repeat: no-repeat;
+}
 
+.service-title {
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 96px;
+}
+
+.service-text {
+    font-size: 24px;
+}
+
+.list-wraper {
+    gap: 264px;
+}
 }
 
 

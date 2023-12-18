@@ -414,7 +414,7 @@ line-height: normal;
 letter-spacing: -0.02em;
 }
 
-.service {
+.service-container {
   padding-top: 64px;
   padding-bottom: 100px;
 }
@@ -435,6 +435,7 @@ margin-bottom: 48px;
   gap: 15px;
 }
 .service-list {
+  list-style-type: disc;
 }
 .service-text {
   color: #FFF;
