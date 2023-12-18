@@ -432,7 +432,7 @@ margin-bottom: 48px;
 .list-wraper {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 40px;
 }
 .service-list {
   list-style-type: disc;
